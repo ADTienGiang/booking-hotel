@@ -1,0 +1,1316 @@
+.provinces-list {
+    position: absolute;
+    z-index: 100;
+    background: #fff;
+    width: 15%;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.province-item {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+    cursor: pointer;
+}
+
+.custom-dropdown-container {
+    position: relative;
+    display: inline-block;
+}
+
+.custom-dropdown-toggle {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 100%;
+}
+
+.custom-dropdown-toggle span {
+    font-size: 14px;
+}
+
+.custom-dropdown-toggle:focus {
+    border-color: #4091EB;
+}
+
+.custom-dropdown-menu {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    display: none;
+    width: 100%;
+}
+
+.custom-dropdown-container:hover .custom-dropdown-menu {
+    display: block;
+}
+
+.custom-dropdown-item {
+    padding: 8px 16px;
+    display: flex;
+    text-align: right;
+    text-decoration: none;
+    color: #333;
+    cursor: pointer;
+    align-items: center;
+}
+
+.classnguoilon,
+.classphong {
+    font-size: 14px;
+    width: 100%;
+    text-align: center;
+}
+
+.custom-dropdown-item .tanggiamsoluong {
+    width: 100px;
+    border: 1px solid #868686;
+    border-radius: 4px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-left: auto;
+    padding: 10px;
+}
+
+.custom-dropdown-item .tanggiamsoluong .icon {
+    margin-left: 10px;
+}
+
+.custom-dropdown-item .tanggiamsoluong .quantity {
+    margin-left: 10px;
+    align-items: center;
+}
+
+.daucong {
+    color: #4091EB;
+}
+
+.oInputTinhThanh input {
+    width: 100%;
+    border-radius: 5px;
+    height: 100%;
+}
+
+.oInputTinhThanh input:focus {
+    border-color: #4091EB;
+    box-shadow: none;
+}
+
+.province-dropdown {
+    position: absolute;
+    width: 100%;
+}
+
+.optionProvince {
+    height: 40px;
+    font-size: 14px;
+}
+
+.inputChonTinhThanhBooking::placeholder {
+    font-size: 14px;
+}
+
+.inputChonTinhThanhBooking {
+    font-size: 14px;
+}
+
+.province-dropdown option i.fas.fa-map-marker {
+    color: #4091EB;
+    margin-right: 5px;
+    font-size: 16px;
+}
+
+/* -------------------------------------------------detail css---------------------------------- */
+
+.container-xxl {
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    z-index: 10;
+}
+
+.booking {
+    z-index: 5;
+}
+
+.flex-container {
+    display: flex;
+}
+
+.name-content-hotel-detail {
+    padding: 0;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #262626;
+}
+
+.tiltle-hotel-top-detail {
+    display: flex;
+    width: 100%;
+    height: 130px;
+    position: relative;
+}
+
+.star-rating {
+    font-size: 12px;
+    cursor: pointer;
+    margin-right: 10px;
+    color: #FEBB02;
+}
+
+.location-icon {
+    display: flex;
+    align-items: center;
+}
+
+.location-icon i {
+    font-size: 18px;
+    color: #007BFF;
+    margin-right: 5px;
+}
+
+.location-text {
+    margin: 5px 0 5px 0;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #262626;
+}
+
+.vitrituyetvoi {
+    font-size: 14px;
+    font-weight: bold;
+    color: #0071C2;
+}
+
+.star-rating i:hover {
+    color: #FFD700;
+}
+
+.tiltle-hotel-top-detail-item {
+    flex-basis: 70%;
+    height: 120px;
+    margin-left: 13px;
+    left: 0;
+    right: 0;
+}
+
+.tiltle-hotel-top-detail-item1 {
+    position: absolute;
+    right: 0;
+    display: flex;
+    align-items: center;
+}
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.thin-icon {
+    font-size: 14px;
+    cursor: pointer;
+    border: 2px solid #0071C2;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 10px;
+    background: transparent;
+    color: #0071C2;
+}
+
+.thin-icon:hover {
+    background: #0071C2;
+    color: #fff;
+}
+
+.book-now-button {
+    background-color: #0071C2;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 14px;
+    width: 90px;
+    height: 37px;
+    font-weight: 500;
+}
+
+.book-now-button:hover {
+    background-color: #00487A;
+}
+
+.img-detail-container {
+    flex-basis: 80%;
+    display: flex;
+    flex-direction: column;
+}
+
+.img-detail-top {
+    display: flex;
+    height: 350px;
+}
+
+.img-detail-left {
+    margin-left: auto;
+    width: 275px;
+    height: 350px;
+}
+
+.img-detail-left-top {
+    margin-bottom: 10px;
+    width: 100%;
+    height: 170px;
+    background-color: aqua;
+}
+
+.img-detail-left-top img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-detail-left-bottom img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-detail-right img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-detail-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img-detail-left-bottom {
+    width: 100%;
+    height: 170px;
+    background-color: rgb(89, 0, 198);
+}
+
+.img-detail-right {
+    width: 538px;
+    height: 100%;
+    background-color: blueviolet;
+    margin-left: auto;
+
+}
+
+.img-detail-bottom {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    flex: 1;
+}
+
+.img-detail-item {
+    flex-basis: calc(20% - 14px);
+    height: 100px;
+    background-color: rgb(25, 123, 203);
+    margin-left: 14px;
+    margin-top: 10px;
+}
+
+.filter-section {
+    flex-basis: 20%;
+    height: 660px;
+}
+.filter-section-item1 {
+    height: 60px;
+}
+
+.chungtoikhopgia {
+    height: 40px;
+    background-color: #EBF3FF;
+    border-radius: 5px;
+    display: flex; /* Sử dụng flex container */
+    align-items: center; /* Căn giữa văn bản theo chiều dọc */
+    justify-content: center;
+    padding: 0 10px; /* Thêm padding để tạo khoảng cách 4 bên */
+    cursor: pointer;
+}
+.timkiemdetail-Left {
+    margin-left: 20px;
+    font-size: 20px;
+    color: #262626;
+    font-weight: 500;
+}
+/* Loại bỏ margin mặc định của các thẻ */
+.chungtoikhopgia span {
+    color: #0071C6;
+    font-weight: 500;
+    /* margin-left: 40px; */
+    font-size: 14px;
+    
+}
+
+.filter-section-item2 {
+    background-color: #FEBB02;
+    height: 400px;
+    width: 263px;
+}
+
+.filter-section-item3 {
+    background-image: url("../assets/img/avt/ggmap.jpg");
+    margin-top: 10px;
+    cursor: pointer;
+    width: 263px;
+    height: 180px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.HienThiTrenBanDo {
+    /* Các kiểu CSS cho nút ở đây nếu cần */
+    background-color: #0071C2;
+    color: #fff;
+    text-align: center;
+    border: none;
+    height: 36px;
+    width: 160px;
+    border-radius: 2px;
+   
+}
+.xemchonghi {
+    font-weight: 500;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    background-color: #0071C2;
+    color: #fff;
+    text-align: center;
+    border: none;
+    height: 36px;
+    width: 160px;
+    border-radius: 5px;
+}
+.xemchonghi:hover{
+    background-color: #003B95;
+    
+}
+
+
+.spinner-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1000; /* Đảm bảo nó nằm trên cùng */
+  }
+  
+  @keyframes spin {
+    to { transform: rotate(360deg); }
+  }
+  
+  .spinner {
+    border: 4px solid rgba(255, 255, 255, 0.3);
+    border-top: 4px solid #fff;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 2s linear infinite;
+  }
+  
+.hihihihihihihi {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 8px 16px;
+    cursor: pointer;
+    width: 222px;
+     white-space: nowrap;
+    font-size: 14px;
+}
+.xoaChoNghiDaXem {
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+    margin-left: 5px;
+    background-color: #474747;
+    font-weight: 500;
+   
+    color: #fff;
+    text-align: center;
+    border: none;
+    height: 36px;
+    width: 50px;
+    border-radius: 5px;
+}
+.xoaChoNghiDaXem:hover {
+    background-color: #777373;
+}
+.HienThiTrenBanDo:hover {
+    background-color:  #00487A;
+}
+.filter-section-item3:hover{
+    border: 1px solid #FEBB02;
+}
+.chonSoLuongNguoiLaSoPhong1 {
+    width: 100%;
+}
+
+.buttonTimKiemDetailMain {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.buttonTimKiemDetail {
+    background-color: #0071C2;
+    color: #fff;
+    text-align: center;
+    width: 230px;
+    height: 50px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 0 20px 0 20px;
+}
+
+.buttonTimKiemDetail:hover {
+    background-color: #0056a8;
+}
+
+.inputchonTinhThanh,
+.chonNgayVaGioCheckInDetailFilter,
+.chonNgayVaGioCheckOutDetailFilter,
+.chonSoLuongNguoiLaSoPhong {
+    margin: 0 20px 0 20px;
+}
+
+.conntenSearchDetail {
+    font-size: 12px;
+    color: #262626;
+}
+
+.th1 {
+    width: 232px;
+}
+
+.th2 {
+    width: 100px;
+}
+
+.th3 {
+    width: 150px;
+    text-align: center;
+}
+
+.th4 {
+    width: 260px;
+}
+
+.th5 {
+    width: 63px;
+}
+
+.th6 {
+    width: 250px;
+}
+
+.tableItemHead {
+    height: 55px;
+}
+
+.tableItemHead th {
+    vertical-align: top;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.tenLoaiPhongBooking {
+    color: #0071c2;
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: underline;
+}
+.tenLoaiPhongBooking111 {
+    font-size: 13px;
+
+}
+.tenLoaiPhongBooking1 {
+    color: #0071c2;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    text-decoration: underline;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+.soluongphongbooking {
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc (nếu cần) */
+  }
+  
+.tienichdetail {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: BlinkMacSystemFont,-apple-system,Segoe UI,Roboto,Helvetica,Arial,sans-serif;
+}
+
+.th1,
+.th2,
+.th3,
+.th4,
+.th5 {
+    border-right: 1px solid #5BBAFF;
+}
+
+.td1,
+.td2,
+.td3,
+.td4,
+.td5 {
+    border-right: 1px solid #5BBAFF;
+}
+
+.td6 {
+    border-bottom: none;
+}
+
+.td1 {
+    width: 232px;
+}
+
+.td2 {
+    width: 120px;
+}
+
+.td3 {
+    width: 175px;
+}
+
+.td4 {
+    width: 260px;
+}
+
+.td5 {
+    width: 63px;
+}
+
+.td6 {
+    width: 250px;
+}
+
+.giaBookingTable {
+    font-weight: 200;
+    color: #CC0000;
+    text-decoration: line-through;
+    font-size: 13px;
+}
+
+.giaDaGiamBookingTable {
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #262626;
+    font-size: 16px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    vertical-align: middle;
+}
+.giaDaGiamBookingTable1 {
+    font-family: BlinkMacSystemFont, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #262626;
+    font-size: 20px !important;
+    font-weight: 700 !important;
+    line-height: 24px !important;
+    vertical-align: middle;
+}
+.thuePhiBookingTable {
+    font-size: 12px;
+}
+
+.giamGiaBookingTable {
+    width: 85px;
+    height: 22px;
+    background-color: #008009;
+    font-size: 11px;
+    color: #FFFFFF;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    border-radius: 2px;
+}
+
+.uuDaiBookingTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    width: 100px;
+    height: 40px;
+    background-color: #008009;
+    font-size: 11px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.dropdownQuantityRoom {
+    width: 3.5rem;
+}
+
+.toisedatBtn {
+    background-color: #0071C2;
+    width: 210px;
+    height: 36px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 2px;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.toisedatBtn:hover {
+    background-color: #005baa;
+}
+
+.td6 ul {
+    margin-left: -15px;
+    margin-top: 10px;
+}
+
+.td6 ul li {
+    font-size: 14px;
+    margin-bottom: 4px;
+    list-style-type: disc;
+    color: #262626;
+}
+
+.info-section {
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+}
+
+.info-input {
+    width: 350px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+.info-input1 {
+    width: 350px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+.textEmailXacNhanDP {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+.payment-section {
+    padding: 20px;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.payment-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    margin-bottom: 10px;
+    
+}
+.textChonpttt {
+    font-weight: 600;
+    color: #1A1A1A;
+}
+.container1111 {
+    display: flex;
+}
+
+.info-form {
+    flex: 3;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.content {
+    flex: 7;
+    padding: 20px;
+ 
+}
+
+.detailPayemt3 {
+    height: 250px;
+    border: 1px solid #E7E7E7;
+    width: 100%;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.detailPayemt31 {
+    width: 100%;
+    margin-top: 20px;
+}
+.detailPayemt31-item {
+    margin-bottom: 10px;
+    margin-left: 20px;
+}
+.theilienhe {
+    margin-right: 10px;
+}
+.thongtindatphongTitle {
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+    font-weight: 700;
+}
+.TienGiamGia,
+.GiamThanhVien {
+    flex: 1; /* Các thành phần này sẽ chiếm toàn bộ không gian trái phải */
+    display: flex;
+    justify-content: space-between; /* Căn giữa giữa các thành phần bên trong */
+    align-items: center; /* Căn theo chiều dọc */
+    padding: 5px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.TongTienHang {
+     flex: 1; /* Các thành phần này sẽ chiếm toàn bộ không gian trái phải */
+    display: flex;
+    justify-content: space-between; /* Căn giữa giữa các thành phần bên trong */
+    align-items: center; /* Căn theo chiều dọc */
+    padding: 5px;
+}
+/* Điều chỉnh kích thước hoặc padding của các thành phần con nếu cần */
+.giaGocPayment,
+.giaGocPayment-item,
+.phantramGiamGia {
+    margin: 0;
+    padding: 0;
+    /* Thêm bất kỳ điều chỉnh kích thước hoặc padding cTongTienHangần thiết */
+}
+.giaGocPayment {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.giaGocPayment-item {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.giaGocPayment1 {
+    margin-left: 10px;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #1A1A1A;
+
+}
+.steps {
+    margin: 20px 10px 15px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+}
+
+.step {
+    text-align: center;
+}
+
+.step-number {
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    display: inline-block;
+    color: black;
+    position: relative;
+    z-index: 2;
+    margin-right: 15px;
+    font-weight: 700;
+}
+.tick-icon {
+    background-color: #006CE4;
+    border-radius: 50%;
+    color: #FFFFFF;
+    width: 30px;
+    height: 30px;
+    font-size: 20px; /* Điều chỉnh kích thước của biểu tượng theo ý muốn */
+    margin-right: 10px; /* Điều chỉnh khoảng cách giữa biểu tượng và tiêu đề */
+}
+.step-title {
+    margin-top: 5px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 20px;
+    color: #1A1A1A;
+}
+
+.active .step-number {
+    background-color: #006CE4;
+    color: white;
+}
+
+.horizontal-border {
+    flex-grow: 1;
+    border-top: 2px solid #868686;
+    margin: 0 10px;
+    position: relative;
+    z-index: 1;
+}
+
+
+.giaGocPayment-item1 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-right: 10px;
+    color: #1A1A1A;
+}
+.TongTienHang {
+    height: 100px;
+    background-color: #EBF3FF;
+}
+.detailPayment1 {
+    height: 150px;
+    border: 1px solid #E7E7E7;
+    width: 100%;
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.giaTomTatDetailPayment {
+    padding: 20px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1A1A1A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.titledetailPayemt2-item {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1A1A1A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.addressKSPM {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+}
+.detailPayemt2 {
+    display: flex;
+    margin-left: 20px;
+}
+.nameKSPM {
+    font-weight: 700;
+    font-size: 16px;
+    color: #1A1A1A;
+}
+.nhanphong {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    color: #1A1A1A;
+}
+.detailPayemt2Cha {
+    height: 150px;
+    border: 1px solid #E7E7E7;
+    width: 100%;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.detailPayemt2Cha1 {
+    height: 80px;
+    width: 100%;
+    margin-top: 20px;
+}
+.theiPaymentreturn {
+    
+}
+.titledetailPayemt2-item {
+    margin-left: 20px;
+}
+.titledetailPayemt2-item111 {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1A1A1A;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.thongtinThanhToanReturn {
+    margin-left: 35px;
+}
+.soluongnguoivangay {
+    margin-left: 35px;
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 20px;
+}
+.border {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.checkindetailPayemt2 {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #1A1A1A;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.selectdetailProvince {
+    z-index: 10000000;
+}
+
+.underline-text {
+    text-decoration: underline;
+    color: #0071c2;
+}
+
+.breadcrumb {
+    z-index: 1;
+    overflow: hidden;
+    word-wrap: break-word;
+    margin-top: 10px;
+    color: #288ad6;
+    font-size: 13px;
+}
+
+.breadcrumb-part {
+    color: #288ad6;
+    transition: color 0.3s;
+}
+
+.breadcrumb-part:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.breadcrumb i {
+    margin-top: 1px;
+    color: #000000;
+}
+
+.breadcrumb-part111 {
+    color: #262626;
+}
+
+.timthaychonghiContent {
+    color: #1A1A1A;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+.dropdownFilterHotel {
+    color: #1A1A1A;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 10px;
+    padding: 5px;
+    display: inline-block;
+    /* Hiển thị thành phần cha như là một khối inline */
+    border: 1px solid #1A1A1A;
+    border-radius: 999px;
+    white-space: nowrap;
+    /* Ngăn ngừng xuống dòng */
+    cursor: pointer;
+    user-select: none;
+}
+
+.dropdownFilterHotel:active {
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+
+.dropdownFilterHotel .dropdown-toggle {
+    white-space: nowrap;
+    display: inline-block;
+}
+
+.dropdownFilterHotel .dropdown-menu {
+    position: absolute;
+    white-space: nowrap;
+    min-width: 100%;
+    left: 0;
+    right: auto;
+}
+
+.pagination {
+    cursor: pointer;
+    justify-content: center;
+    display: inline-block;
+}
+
+.pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+}
+
+.pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.pagination a:hover:not(.active) {
+    background-color: #ddd;
+    border-radius: 5px;
+}
+
+
+
+.phiatentitle-hotel {
+    
+    display: flex;
+    align-items: center; /* Căn giữa theo chiều dọc */
+    margin-left: 13px;
+    border-bottom: 1px solid #E7E7E7;
+    margin-bottom: 10px;
+}
+
+.phiatentitle-hotel-item {
+    display: flex;
+    justify-content: center; /* Căn giữa theo chiều ngang */
+    align-items: center; /* Căn giữa theo chiều dọc */
+    height: 50px;
+    padding: 0 15px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #262626;
+}
+.phiatentitle-hotel-item:focus {
+    border-bottom: 2px solid #0056a8;
+}
+
+
+.phiatentitle-hotel-item:hover {
+    background-color: #F0F0F0;
+}
+.giuongdoidondetail {
+    color: #262626;
+    font-size: 14px;
+}
+.the1 {
+    width: 400px;
+}
+.the2 {
+    width: 380px;
+}
+
+.the3 {
+    width: 320px;
+}
+.soDem {
+    white-space: nowrap;
+}
+.anhDaiHienLogin {
+    height: 35px;
+    border-radius: 100%;
+    border: 2px solid #FEBB02;
+}
+.anhDaiHienLogin1 {
+    margin-left: 20px;
+    height: 50px;
+    border-radius: 100%;
+    border: 2px solid #FEBB02;
+}
+.info-section1 {
+    display: flex;
+    margin-bottom: 20px;
+    height: 80px;
+    border: 1px solid #E7E7E7;
+    border-radius: 5px;
+    align-items: center; /* Để căn giữa theo chiều dọc */
+    justify-content: flex-start; /* Để căn bên trái */
+}
+
+.infoUserPayment {
+    margin-left: 20px;
+}
+.bandadangnhap {
+    font-size: 17px;
+    font-weight: 600;
+    color: #1A1A1A;
+}
+.emailKhachHang {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.contenttopInfoUserPayment {
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 28px;
+    color: #1A1A1A;
+}
+.HoVaTen {
+    font-size: 14px;
+    display: block;
+    font-weight: bold;
+    margin-bottom: 2px;
+    color: #1A1A1A;
+
+}
+.asterisk {
+    color: red; /* Màu của dấu '*' */
+    margin-left: 5px; /* Khoảng cách giữa họ tên và dấu '*' */
+    font-size: 15px; /* Kích thước của dấu '*' */
+}
+.hoTenVaDauSao {
+    display: flex;
+}
+.button-container {
+    display: flex;
+    justify-content: flex-end; /* Đặt nút bên phải */
+}
+
+.buttonReturn {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 48px;
+    width: 200px;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 20px;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .buttonReturn:hover{
+    background-color: #00487A;
+  }
+  .buttonCancel {
+    background-color: #5e6164;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 48px;
+    width: 180px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .buttonCancel:hover{
+    background-color: #1A1A1A;
+  }
+  .bi-arrow-return-left {
+    margin-right: 10px;
+}
+.checkindetailPayemt2-item11 {
+    margin-bottom: 10px;
+    text-decoration: underline;
+    color: #0065d1;
+    font-weight: 700;
+}
+.huydatphongIcon {
+    margin-right: 10px;
+}
+.iconthongtinTopTitlePayment {
+    margin-right: 10px;
+}
+.buttonCancel1 {
+    user-select: none;
+    background-color: #5e6164;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 48px;
+    width: 180px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: line-through;
+}
+.class11111 {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 48px;
+    width: 285px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+.class11111:hover {
+    background-color: #0450a1;
+
+}
+  .class11111111 {
+    background-color: #007bff;
+    color: white;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  .img-room-detail {
+    max-width: 200px;
+    float: right;
+  }
+.img-fluid {
+    border-radius: 5px;
+}
+.tenKSReturn {
+    font-size: 1.5rem;
+    color: #007bff;
+    font-weight: bold;
+}
+.tenLoaiPhong1 {
+    color: #1A1A1A;
+    font-weight: 700;
+}
+/* -------------------------------detail css end----------------------------------------- */

@@ -1,0 +1,43 @@
+{
+  "name": "frontend",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@mapbox/mapbox-gl-geocoder": "^5.0.2",
+    "@popperjs/core": "^2.11.8",
+    "@studiometa/vue-mapbox-gl": "^2.2.0",
+    "@tinymce/tinymce-vue": "^4.0.7",
+    "autoprefixer": "^10.4.16",
+    "axios": "^1.6.2",
+    "bcryptjs": "^2.4.3",
+    "bootstrap": "^5.3.2",
+    "chart.js": "^4.4.1",
+    "dotenv": "^16.3.1",
+    "font-awesome": "^4.7.0",
+    "luxon": "^3.4.4",
+    "mapbox-gl": "^3.0.1",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.44",
+    "postcss": "^8.4.33",
+    "select2": "^4.1.0-rc.0",
+    "swiper": "^11.0.5",
+    "tailwindcss": "^3.4.1",
+    "vue": "^3.3.4",
+    "vue-ctk-date-time-picker": "^3.0.0-alpha.0",
+    "vue-router": "^4.2.5",
+    "vue-sweetalert2": "^5.0.5",
+    "vue-toast-notification": "^3.1.2",
+    "vuejs-paginate": "^2.1.0",
+    "vuex": "^4.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.5.0"
+  }
+}
